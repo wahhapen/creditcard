@@ -128,7 +128,7 @@ input{
 
   @-moz-document url-prefix() {
                         .num-spin-down {
-                        height: 21px;
+                        height: 25px;
                     }
                     }
 
