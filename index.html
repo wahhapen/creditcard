@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Credit card</title>
+        <meta name="description" content="Credit card template for test">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="wrapper ">
+        <form action="/auth" method="post">
+        <fieldset>
+        <div class="front-side clearfix">
+        <img class="logo" src="img/logos.png">
+        <label>Card number<br>
+        <input type="text" class="credit-card card-number" name="card-number"></label><br>
+        <label>
+        
+        Expiration date<br>
+        <div class="dates clearfix" >
+        <div data-trigger="spinner">
+        <input type='text' class="credit-card card-month" data-rule="month" value="03">
+        <a data-spin="up" href="javascript:;"><div class="num-spin-up"></div></a>
+        <a data-spin="down" href="javascript:;"><div class="num-spin-down"></div></a>
+            </div></label><label>
+            <div data-trigger="spinner">
+        <input type='text' class="credit-card card-year" data-rule="quantity" data-max="2050" value="2015">
+        <a data-spin="up" href="javascript:;"><div class="num-spin-up"></div></a>
+        <a data-spin="down" href="javascript:;"><div class="num-spin-down"></div></a>
+            </div><br></label></div>
+        <label>Cardholder name<br>
+        <input type='text' class="credit-card card-name" name="card-name" value="" placeholder="IVAN IVANOV">
+        </label>
+        </div>
+            <div class="back-side">
+            <div class="rectangle"></div>
+            <div class="back-content">
+        <label>CVC/CVV<br>
+        <input type="text" name="credit-card cvc-number" class="cvc-number">
+        <br><span class="cvc-text">The last<br> 3 or 4 digits <br>on back <br>of the card</span>
+        </label></div>
+            </div></fieldset>
+        </form>
+        </div>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+<script src="js/jquery.spinner.min.js"></script>
+    </body>
+</html>
