@@ -126,7 +126,11 @@ input{
     background: black;
 }
 
-
+  @-moz-document url-prefix() {
+                        .num-spin-down {
+                        height: 21px;
+                    }
+                    }
 
 
 
