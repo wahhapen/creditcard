@@ -12,6 +12,7 @@ fieldset {
     margin: 0;
     padding: 0;
 }
+
 input[type='number'] {
     -moz-appearance:textfield;
 }
@@ -131,8 +132,6 @@ input{
                         height: 21px;
                     }
                     }
-
-
 
 .clearfix:before,
 .clearfix:after {
